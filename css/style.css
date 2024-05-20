@@ -119,9 +119,105 @@ padding: 16px 0;
 }
 
 
+@media screen and (min-width:768px) {
+    .btn-phn-header {
+        display: none;
+    }
+
+        .page-menu {
+            display: flex;
+            gap: 40px;
+        }
+
+        .logo{
+            margin-right: 120px;
+            padding: 24px 0;
+        }
+
+        .address-iteam-info{
+          display: block;  
+          font-style: normal;
+        }
+     .top-nav {
+        display: flex;
+         align-items: center;}
+
+        .menu-link {
+                display: block;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #2e2f42;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+        
+            .current {
+                position: relative;
+                color: #404BBF;
+            }
+        
+        
+            .current::after {
+                left: 0;
+                bottom: -1px;
+                content: "";
+                background-color: #404BBF;
+                border-radius: 2px;
+                height: 4px;
+                width: 100%;
+                position: absolute;
+            }
+        
+        
+        
+            .menu-link:focus,
+            .menu-link:hover {
+                color: #404bbf;
+        
+            }
 
 
+            .info{
+                display: flex;
+                flex-direction: column;
+                gap:12px;
+            }
 
+            .iteam-info{
+                display: block;
+                    font-size: 12px;
+                    line-height: 1.17;
+                    letter-spacing: 0.04em;
+                    color: #434455;
+            }
+                        .iteam-info:hover,
+                        .iteam-info:focus {
+                            color: #404bbf;
+                        }
+}
+
+@media screen and (min-width: 1158px){
+    .logo {
+        margin-right: 76px;
+        
+        }
+
+      .info {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+.iteam-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
 
 
 
