@@ -522,6 +522,8 @@ background-color: #31d0aa;
 .footer-form{
     display: flex;
     gap: 24px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .input-email-footer{
