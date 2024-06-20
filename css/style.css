@@ -928,7 +928,12 @@ portfolio
 
 }
 
-@media screen and (min-width: 1158px) {}
+@media screen and (min-width: 1158px) {
+    .foot-con {
+            display: flex;
+            align-items: baseline;
+        }
+}
 
 /*============================================================
 modal window
