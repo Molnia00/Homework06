@@ -481,6 +481,11 @@ team
 .team-container {
     padding: 32px 0;
 }
+.team-img{
+    width:100% ;
+    object-fit: cover;
+}
+
 .team {
     background: #F4F4FD;
     padding: 72px 0;
@@ -737,7 +742,9 @@ portfolio
         .portfolio-li {
             flex-basis: calc((100% - 48px) / 3);}
 }
-
+/* =================================================
+ footer
+======================================================*/
 .down-page {
     background: #2e2f42;
     padding: 96px 0;
@@ -759,8 +766,10 @@ portfolio
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
     margin-bottom: 16px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }
 .text-logo {
     color: #f4f4fd;
@@ -768,23 +777,27 @@ portfolio
 .foot-con {
     display: flex;
     flex-direction: column;
-    
 }
 .contai-foot {
     margin-bottom: 72px;
 }
-.cont-para {
+.cont-para { 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .social-footer-ul {
     display: flex;
     gap: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-footer-li {
@@ -821,6 +834,7 @@ portfolio
 }
 
 .sub-para {
+    
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -828,6 +842,9 @@ portfolio
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+        align-items: center;
 }
 
 .footer-form {
@@ -841,8 +858,8 @@ portfolio
     background-color: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
-    width: 264px;
-    height: 40px;
+    min-width: 288px;
+    min-height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -879,12 +896,37 @@ portfolio
     margin-left: 16px;
 }
 
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+    .logo-med-link{
+        display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: baseline;
+         gap: 24px;
+    }
+
+    .foot-con{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+}
 
 @media screen and (min-width: 1158px) {}
 
+/*============================================================
+modal window
+==============================================================*/
 
 
+
+
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width: 1158px) {}
 
 
 
