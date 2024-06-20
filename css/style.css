@@ -912,6 +912,20 @@ portfolio
         gap: 72px 24px;
     }
 
+    .sub-para{
+        justify-content: flex-start;
+    }
+
+    .logo-foot{
+        justify-content: flex-start;
+    }
+
+    .cont-para{
+        justify-content: flex-start;
+    }
+
+    
+
 }
 
 @media screen and (min-width: 1158px) {}
