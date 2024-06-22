@@ -58,6 +58,7 @@ body {
 
 }
 
+
 @media screen and (min-width:768px) {
     .container {
             max-width: 768px;
@@ -197,6 +198,8 @@ padding: 16px 0;
                         .iteam-info:focus {
                             color: #404bbf;
                         }
+
+        
 }
 
 @media screen and (min-width: 1158px){
@@ -217,6 +220,132 @@ padding: 16px 0;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
+
+
+/*=========================
+menu-modal
+===========================*/
+
+.mob-menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    padding:24px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.close-btn-menu{
+    display:block;
+    margin-left: auto;
+    margin-bottom: 24px;
+    border-radius: 100%;
+    fill: #e7e9fc;
+    stroke-width: 1px;
+    stroke: #2e2f42;
+}
+
+.mob-menu-hrest{
+fill: #2e2f42;
+}
+
+
+
+.menu-link-mob{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.info-mob{
+    display: flex;
+    flex-direction:column;
+    gap:24px;
+    margin-bottom: 48px;
+}
+
+.mob-info-iteam{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.menu-link-mob:focus,
+.menu-link-mob:hover {
+    color: #404bbf;
+
+}
+
+.mob-info-iteam:hover,
+.mob-info-iteam:focus {
+    color: #404bbf;
+}
+
+.iteam-menu-mob:not(:last-child){
+margin-bottom: 40px;
+}
+
+.social-li-mob {
+    width: 40px;
+    height: 40px;
+}
+
+.svg-mob-menu {
+    fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
+}
+
+.social-mad-link-mob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social_med_mob{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.social-mad-link-mob:hover,
+.social-mad-link-mob:focus {
+    background-color: #404bbf;
+}
+
+.div-mob-address{
+    margin-top: auto;
+}
+
+.div-mob-nav{
+    margin-bottom:50px;
+}
+
+/*=========================
+//////////menu-modal///////
+===========================*/
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 /*=====================================================================
@@ -978,86 +1107,6 @@ portfolio
 /*============================================================
 modal window
 ==============================================================*/
-
-
-
-
-
-@media screen and (min-width:768px) {}
-
-@media screen and (min-width: 1158px) {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
