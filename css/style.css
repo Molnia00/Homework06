@@ -1396,7 +1396,7 @@ modal window
 .modal {
     width: 408px;
     min-height: 584px;
-    padding: 72px 24px 24px 24ppx;
+    padding: 72px 24px 24px 24px;
 }
 .contact-input-form{
     width: 360px;
